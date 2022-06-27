@@ -1,13 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+a{
+  text-decoration: none !important;
+}
+.btn-primary {
+  display: block;
+  font-size: 14px;
+  width: 210px;
+  font-weight: 500;
+  border: 1px solid #ffffff !important;
+  color: #ffffff;
+  background-color: transparent !important;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 12px 0px;
+}
+.btn-primary:hover {
+  background: #ffffff !important;
+  color: #000000 !important ;
+}
+p{
+  font-family: "Libre Baskerville", serif;
+  color: rgb(224, 224, 224);
+}
+h3{
+  font-size: 20px;
+  color: #FF0000;
+}
+h2{
+  font-family: "Libre Baskerville", serif;
+  font-size: 48px !important;
+  font-weight: 700;
+  color: rgb(224, 224, 224);
 }

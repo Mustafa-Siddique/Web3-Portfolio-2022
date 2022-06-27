@@ -1,38 +1,71 @@
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-container {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* NAVBAR */
+.navbar .container-fluid {
+  max-width: 1800px;
+}
+.navbar-nav a {
+  color: rgb(224, 224, 224) !important;
+}
+.navbar-brand img {
+  max-width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* HERO */
+.hero-main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-end;
+  padding-bottom: 18rem;
+  height: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.hero-main p::before {
+  content: "";
+  height: 2px;
+  width: 70px;
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  background-color: #ff0000;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hero-main p {
+  margin-left: 80px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #ff0000;
+}
+.hero-main h1 {
+  font-size: 60px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  color: #fff;
+}
+.hero-main span{
+  position: absolute;
+  color: #fff;
+  bottom: 100px;
+  letter-spacing: 3px;
+}
+.hero-main span {
+  animation-duration: 2s;
+  animation-name: heroFloat;
+  animation-iteration-count: infinite;
+}
+@keyframes heroFloat {
+  0% {
+    transform: translateY(0px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
