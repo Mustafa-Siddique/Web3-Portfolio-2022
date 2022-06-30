@@ -37,13 +37,19 @@ p{
   font-family: "Libre Baskerville", serif;
   color: rgb(224, 224, 224);
 }
-h3{
-  font-size: 20px;
-  color: #FF0000;
-}
 h2{
   font-family: "Libre Baskerville", serif;
   font-size: 48px !important;
   font-weight: 700;
   color: rgb(224, 224, 224);
+}
+h3{
+  font-size: 20px;
+  color: #FF0000;
+}
+h4{
+  line-height: 30px;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 18px !important;
 }

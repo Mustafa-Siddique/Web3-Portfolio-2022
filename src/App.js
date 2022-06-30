@@ -5,6 +5,7 @@ import AnimatedCursor from "react-animated-cursor";
 import NavbarTop from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Hero />
       </div>
       <About/>
+      <Experience/>
     </div>
   );
 }
