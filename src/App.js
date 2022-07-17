@@ -6,6 +6,7 @@ import NavbarTop from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       </div>
       <About/>
       <Experience/>
+      <Portfolio/>
     </div>
   );
 }

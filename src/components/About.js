@@ -4,7 +4,7 @@ import SkillBar from "react-skillbars";
 export default function About() {
   const skills = [
     {
-      type: "Java",
+      type: "HTML5",
       level: 100,
       color: {
         bar: "#1E5128",
@@ -12,48 +12,48 @@ export default function About() {
       },
     },
     {
-      type: "React",
-      level: 85,
+      type: "CSS3",
+      level: 95,
       color: {
         bar: "#4E9F3D",
         title: { text: "#fff", background: "#4E9F3D" },
       },
     },
     {
-      type: "Javascript",
-      level: 75,
+      type: "BOOTSTRAP",
+      level: 92,
       color: {
         bar: "#8B9A46",
         title: { text: "#fff", background: "#8B9A46" },
       },
     },
     {
-      type: "Spring",
-      level: 50,
+      type: "REACT.JS",
+      level: 80,
       color: {
         bar: "#4ECCA3",
         title: { text: "#fff", background: "#4ECCA3" },
       },
     },
     {
-      type: "Docker",
-      level: 25,
+      type: "WORDPRESS",
+      level: 78,
       color: {
         bar: "#DBEDF3",
         title: { text: "#fff", background: "#DBEDF3" },
       },
     },
     {
-      type: "HTML",
-      level: 20,
+      type: "WEB3.JS",
+      level: 70,
       color: {
         bar: "#8787A3",
         title: { text: "#111", background: "#8787A3" },
       },
     },
     {
-      type: "NoSQL",
-      level: 0,
+      type: "MONGO.DB",
+      level: 65,
       color: {
         bar: "#404B69",
         title: { text: "#fff", background: "#404B69" },
@@ -110,7 +110,7 @@ export default function About() {
           </div>
           <div className="col-lg-6">
             <h4>I've Got Some skills.</h4>
-            <SkillBar skills={skills}/>
+            <SkillBar skills={skills} />
             <a href="#">PING ME NOW</a>
           </div>
         </div>

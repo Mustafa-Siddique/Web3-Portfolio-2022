@@ -68,7 +68,8 @@ export default function Experience() {
           <h5>Infinite SEO Content</h5>
           <h6 className="text-light fs-5">Web Developer</h6>
           <p>
-            Working as Head Developer helping brands grow with Complete Web <br />
+            Working as Head Developer helping brands grow with Complete Web{" "}
+            <br />
             Services i.e., Design/Development/SEO/SMM.
           </p>
         </div>

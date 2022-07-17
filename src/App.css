@@ -181,3 +181,11 @@
   left: 50%;
   top: calc(50% - 3px);
 }
+
+/* PORTFOLIO */
+.portfolio-main h2, .portfolio-main h3{
+  text-align: center;
+}
+.ReactGridGallery_tile-icon-bar{
+  display: none;
+}
