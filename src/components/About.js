@@ -106,12 +106,12 @@ export default function About() {
               perfect for your needs. Reach me at (+91) 80760 75287 or fill the
               form below !"
             </p>
-            <a href="#">DOWNLOAD MY CV</a>
+            <a href="#" className="btn-cv">DOWNLOAD MY CV</a>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 d-flex flex-column">
             <h4>I've Got Some skills.</h4>
-            <SkillBar skills={skills} />
-            <a href="#">PING ME NOW</a>
+            <div className="my-auto" style={{height:"fit-content",}}><SkillBar skills={skills} /></div>
+            <a href="#" className="btn-ping mt-auto">PING ME NOW</a>
           </div>
         </div>
       </div>

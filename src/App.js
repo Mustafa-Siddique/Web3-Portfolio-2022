@@ -7,6 +7,10 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
+import Testimonials from "./components/Testimonial";
+import Journal from "./components/Journal";
+import Counter from "./components/Counter";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -40,6 +44,10 @@ function App() {
       <About/>
       <Experience/>
       <Portfolio/>
+      <Testimonials/>
+      <Journal/>
+      <Counter/>
+      <Contact/>
     </div>
   );
 }
