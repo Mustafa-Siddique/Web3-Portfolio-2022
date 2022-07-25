@@ -29,109 +29,148 @@ export default function Contact() {
 
   return (
     <div className="contact-main">
-      <div className="text-center">
-        <h3>CONTACT</h3>
-        <h2>What's on Your Mind?</h2>
-        <p
-          className="mx-auto text-center"
-          style={{
-            maxWidth: "1000px",
-            fontSize: "1.6rem",
-            fontFamily: "montserrat",
-          }}
-        >
-          Ready to transform your business online/decentralised? I'm here for
-          you to offer a full range of services including Responsive Web Design,
-          Web3 more. Contact Us today to see how we can help you!
-        </p>
-      </div>
-      <div className="contactForm">
-        {/* SUCCESS ALERT */}
-        <div
-          className={
-            handleSuccess == "success"
-              ? "alert alert-success d-flex align-items-center my-2"
-              : "alert alert-success d-none align-items-center my-2"
-          }
-          role="alert"
-        >
-          <svg
-            className="bi flex-shrink-0 me-2 "
-            width="24"
-            height="24"
-            role="img"
-            aria-label="Success:"
+      <div className="container mt-5">
+        <div className="text-center">
+          <h3>CONTACT</h3>
+          <h2>What's on Your Mind?</h2>
+          <p
+            className="mx-auto text-center text-secondary fw-bold"
+            style={{
+              maxWidth: "1000px",
+              fontSize: "20px",
+              fontFamily: "montserrat",
+            }}
           >
-            <AiFillCheckCircle fontSize={25} />
-          </svg>
-          <div>Your response has been submitted successfully!</div>
+            Ready to transform your business online/decentralised? I'm here for
+            you to offer a full range of services including Responsive Web
+            Design, Web3 more. Contact Us today to see how we can help you!
+          </p>
         </div>
-        {/* FAILED ALERT */}
-        <div
-          className={
-            handleSuccess == "err"
-              ? "alert alert-danger d-flex align-items-center my-2"
-              : "alert alert-danger d-none align-items-center my-2"
-          }
-          role="alert"
-        >
-          <svg
-            className="bi flex-shrink-0 me-2"
-            width="24"
-            height="24"
-            role="img"
-            aria-label="Danger:"
-          >
-            <AiFillAlert fontSize={25} />
-          </svg>
-          <div>Response submission failed!</div>
+        <div className="row">
+          <div className="col-md-6">
+            <div className="contactForm">
+              {/* SUCCESS ALERT */}
+              <div
+                className={
+                  handleSuccess == "success"
+                    ? "alert alert-success d-flex align-items-center my-2"
+                    : "alert alert-success d-none align-items-center my-2"
+                }
+                role="alert"
+              >
+                <svg
+                  className="bi flex-shrink-0 me-2 "
+                  width="24"
+                  height="24"
+                  role="img"
+                  aria-label="Success:"
+                >
+                  <AiFillCheckCircle fontSize={25} />
+                </svg>
+                <div>Your response has been submitted successfully!</div>
+              </div>
+              {/* FAILED ALERT */}
+              <div
+                className={
+                  handleSuccess == "err"
+                    ? "alert alert-danger d-flex align-items-center my-2"
+                    : "alert alert-danger d-none align-items-center my-2"
+                }
+                role="alert"
+              >
+                <svg
+                  className="bi flex-shrink-0 me-2"
+                  width="24"
+                  height="24"
+                  role="img"
+                  aria-label="Danger:"
+                >
+                  <AiFillAlert fontSize={25} />
+                </svg>
+                <div>Response submission failed!</div>
+              </div>
+              {/* CONTACT FORM */}
+              <form
+                name="contact-form"
+                method="post"
+                className="mt-5 d-flex flex-column"
+                onSubmit={sendEmail}
+                data-netlify="true"
+              >
+                <input type="hidden" name="form-name" value="contact-form" />
+                <div id="formName">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    id=""
+                    required
+                  />
+                </div>
+                <div id="formMail">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                    id=""
+                  />
+                </div>
+                <div id="formMsg">
+                  <textarea
+                    name="message"
+                    id=""
+                    placeholder="Message!"
+                    required
+                    rows="10"
+                  ></textarea>
+                </div>
+                <div
+                  className="g-recaptcha my-2"
+                  data-sitekey="6LesOwYhAAAAAOwEQ1bAn-GnSusbaDl2znk2c47n"
+                ></div>
+                <input
+                  id="formSubmit"
+                  className="btnYellow btnForm mt-4"
+                  type="submit"
+                  value="SUBMIT"
+                />
+              </form>
+            </div>
+          </div>
+          <div className="col-md-6 ps-2 ps-md-5">
+            <div className="mt-5">
+              <b className="text-light">PHONE</b>
+              <br />
+              <br />
+              <p>
+                <a href="tel:+918076075287" className="text-secondary">
+                  (+91) 80760 75287
+                </a>
+              </p>
+            </div>
+            <div className="mt-5">
+              <b className="text-light">EMAIL</b>
+              <br />
+              <br />
+              <p>
+                <a href="tel:+918076075287" className="text-secondary">
+                  mstfasid@gmail.com
+                </a>
+              </p>
+            </div>
+            <div className="mt-5">
+              <b className="text-light">ADDRESS</b>
+              <br />
+              <br />
+              <p className="text-secondary">
+                Faridabad <br />
+                Haryana, IN <br />
+                121003
+              </p>
+            </div>
+          </div>
         </div>
-        {/* CONTACT FORM */}
-        <form
-          name="contact-form"
-          method="post"
-          onSubmit={sendEmail}
-          data-netlify="true"
-        >
-          <input type="hidden" name="form-name" value="contact-form" />
-          <div id="formName">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              id=""
-              required
-            />
-          </div>
-          <div id="formMail">
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-              id=""
-            />
-          </div>
-          <div id="formMsg">
-            <textarea
-              name="message"
-              id=""
-              placeholder="Your Message Here!"
-              required
-              rows="10"
-            ></textarea>
-          </div>
-          <div
-            className="g-recaptcha my-2"
-            data-sitekey="6LesOwYhAAAAAOwEQ1bAn-GnSusbaDl2znk2c47n"
-          ></div>
-          <input
-            id="formSubmit"
-            className="btnYellow btn"
-            type="submit"
-            value="SUBMIT"
-          />
-        </form>
       </div>
     </div>
   );

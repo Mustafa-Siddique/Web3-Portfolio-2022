@@ -318,3 +318,28 @@
   background-color: #000;
   padding: 50px 0;
 }
+.contact-main input[type="text"] {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid #757575;
+  width: 90%;
+}
+.contact-main input[type="email"]{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin: 25px auto;
+  border-bottom: 1px solid #757575;
+  width: 90%;
+}
+.contact-main textarea{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid #757575;
+  width: 90%;
+}
