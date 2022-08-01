@@ -46,8 +46,13 @@ export default function Contact() {
             Design, Web3 more. Contact Us today to see how we can help you!
           </p>
         </div>
-        <div className="row">
-          <div className="col-md-6">
+        <div
+          className="row mx-auto"
+          style={{
+            maxWidth: "1000px",
+          }}
+        >
+          <div className="col-md-8">
             <div className="contactForm">
               {/* SUCCESS ALERT */}
               <div
@@ -138,7 +143,7 @@ export default function Contact() {
               </form>
             </div>
           </div>
-          <div className="col-md-6 ps-2 ps-md-5">
+          <div className="col-md-4 ps-2 ps-md-5">
             <div className="mt-5">
               <b className="text-light">PHONE</b>
               <br />

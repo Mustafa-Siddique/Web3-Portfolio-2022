@@ -8,7 +8,7 @@ export default function Experience() {
         <div class="col-2 text-center bottom">
           <div class="circle">1</div>
         </div>
-        <div class="col-6">
+        <div class="col-sm-6 col-8">
           <span>DECEMBER 2020 - MAY 2021</span>
           <h5>Kesavi Web Solutions</h5>
           <h6 className="text-light fs-5">Web Developer Intern</h6>
@@ -33,7 +33,7 @@ export default function Experience() {
       </div>
       {/* second section */}
       <div class="row align-items-center justify-content-end how-it-works">
-        <div class="col-6 text-right">
+        <div class="col-sm-6 col-8 text-right">
           <span>JUNE 2021 - PRESENT</span>
           <h5>Freelance Web Designer/Marketer</h5>
           <h6 className="text-light fs-5">Web Developer Intern</h6>
@@ -63,7 +63,7 @@ export default function Experience() {
         <div class="col-2 text-center top">
           <div class="circle">3</div>
         </div>
-        <div class="col-6">
+        <div class="col-sm-6 col-8">
           <span>SEPTEMBER 2021 - PRESENT</span>
           <h5>Infinite SEO Content</h5>
           <h6 className="text-light fs-5">Web Developer</h6>

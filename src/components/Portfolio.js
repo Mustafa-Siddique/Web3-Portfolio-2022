@@ -9,12 +9,7 @@ export default function Portfolio() {
         <h3 className="mt-5">PORTFOLIO</h3>
         <h2 className="mb-3">See My Latest Projects.</h2>
         <p
-          className="mx-auto text-center"
-          style={{
-            maxWidth: "1000px",
-            fontSize: "1.6rem",
-            fontFamily: "montserrat",
-          }}
+          className="mx-auto text-center para"
         >
           I provide Web Designing &amp; WordPress projects to the clients all
           over the world. Our team of designers and developers have a vast

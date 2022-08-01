@@ -66,14 +66,7 @@ export default function About() {
       <div className="container text-center py-5">
         <h3>ABOUT</h3>
         <h2 className="mb-3">More About Me</h2>
-        <p
-          className="mx-auto"
-          style={{
-            maxWidth: "1000px",
-            fontSize: "1.6rem",
-            fontFamily: "montserrat",
-          }}
-        >
+        <p className="mx-auto para">
           I am an Expert WordPress Developer and Web Designer. From my work as a
           Developer, I have helped many companies grow by designing and
           developing their websites or marketing campaigns. If you are looking
@@ -82,11 +75,11 @@ export default function About() {
           business flourish online, please contact me below!
         </p>
       </div>
-      <hr className="w-25 m-auto" />
+      <hr className="w-25 m-auto bg-secondary mb-5" />
       <div className="container about">
         <div className="row">
           <div className="col-lg-6">
-            <h4>Website... for Businesses/Professionals? Why?</h4>
+            <h4 className="text-lg-start text-center">Website... for Businesses/Professionals? Why?</h4>
             <p>
               As a professional web designer and WordPress developer, I create
               websites for businesses &amp; professionals that are simple to use
@@ -106,12 +99,18 @@ export default function About() {
               perfect for your needs. Reach me at (+91) 80760 75287 or fill the
               form below !"
             </p>
-            <a href="#" className="btn-cv">DOWNLOAD MY CV</a>
+            <a href="#" className="btn-cv">
+              DOWNLOAD MY CV
+            </a>
           </div>
-          <div className="col-lg-6 d-flex flex-column">
-            <h4>I've Got Some skills.</h4>
-            <div className="my-auto" style={{height:"fit-content",}}><SkillBar skills={skills} /></div>
-            <a href="#" className="btn-ping mt-auto">PING ME NOW</a>
+          <div className="col-lg-6 d-flex flex-column mt-5 mt-lg-0">
+            <h4 className="text-lg-start text-center">I've Got Some skills.</h4>
+            <div className="my-auto" style={{ height: "fit-content" }}>
+              <SkillBar skills={skills} />
+            </div>
+            <a href="#" className="btn-ping mt-auto">
+              PING ME NOW
+            </a>
           </div>
         </div>
       </div>

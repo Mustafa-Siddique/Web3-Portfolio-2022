@@ -44,8 +44,10 @@ h2{
   color: rgb(224, 224, 224);
 }
 h3{
-  font-size: 20px;
+  font-size: 20px !important;
+  font-weight: 700 !important;
   color: #FF0000;
+  letter-spacing: 2px;
 }
 h4{
   line-height: 30px;
@@ -109,14 +111,36 @@ h4{
   padding: 15px 0;
   letter-spacing: 2px;
 }
+.para{
+  max-width: 1000px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1500px){
+  .hero-main h1{
+    font-size: 50px;
+  }
+}
 
 @media only screen and (max-width: 1200px){
   .counter-stat{
     font-size: 5.6rem;
   }
+  .hero-main h1{
+    font-size: 46px;
+  }
 }
 
 @media only screen and (max-width: 934px) {
+  h2{
+    font-size: 42px !important;
+  }
+  .hero-main h1{
+    font-size: 42px;
+  }
   .carousel-root {
     outline: 0;
     width: 93% !important;
@@ -144,7 +168,27 @@ h4{
   }
 }
 @media only screen and (max-width: 768px){
+  h2{
+    font-size: 36px !important;
+  }
   .counter-stat{
     font-size: 4.8rem;
+  }
+  .para{
+    font-size: 17px !important;
+  }
+}
+@media only screen and (max-width: 420px){
+h2{
+  font-size: 31px !important;
+}
+  .hero-main h1{
+  font-size: 36px;
+}
+.hero-main span{
+  bottom: 35px;
+}
+  .hero-main {
+    padding-bottom: 8.5rem;
   }
 }

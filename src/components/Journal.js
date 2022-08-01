@@ -10,12 +10,7 @@ export default function Journal() {
         <h3>JOURNAL</h3>
         <h2>LATEST FROM THE BLOG</h2>
         <p
-          className="mx-auto text-center"
-          style={{
-            maxWidth: "1000px",
-            fontSize: "1.6rem",
-            fontFamily: "montserrat",
-          }}
+          className="mx-auto text-center para"
         >
           Want to know why a website is highly recommended for your Business?
           You can get an idea about competing with other businesses with a

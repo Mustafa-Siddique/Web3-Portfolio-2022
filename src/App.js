@@ -11,6 +11,7 @@ import Testimonials from "./components/Testimonial";
 import Journal from "./components/Journal";
 import Counter from "./components/Counter";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
       <Journal/>
       <Counter/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
