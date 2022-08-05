@@ -9,7 +9,7 @@ export default function Experience() {
           <div class="circle">1</div>
         </div>
         <div class="col-sm-6 col-8">
-          <span>DECEMBER 2020 - MAY 2021</span>
+          <span className="text-secondary">DECEMBER 2020 - MAY 2021</span>
           <h5>Kesavi Web Solutions</h5>
           <h6 className="text-light fs-5">Web Developer Intern</h6>
           <p>
@@ -34,12 +34,12 @@ export default function Experience() {
       {/* second section */}
       <div class="row align-items-center justify-content-end how-it-works">
         <div class="col-sm-6 col-8 text-right">
-          <span>JUNE 2021 - PRESENT</span>
-          <h5>Freelance Web Designer/Marketer</h5>
-          <h6 className="text-light fs-5">Web Developer Intern</h6>
+          <span className="text-secondary">JUNE 2021 - PRESENT</span>
+          <h5>Kesavi Web Solutions</h5>
+          <h6 className="text-light fs-5">Web3 Developer</h6>
           <p>
-            Worked with Indian Clients as well as International Clients around
-            the Globe.
+            Building dApps as per the client’s requirement and transitioning to
+            the world of Blockchain.
           </p>
         </div>
         <div class="col-2 text-center full">
@@ -59,7 +59,7 @@ export default function Experience() {
         </div>
       </div>
       {/* third section */}
-      <div class="row align-items-center how-it-works">
+      {/* <div class="row align-items-center how-it-works">
         <div class="col-2 text-center top">
           <div class="circle">3</div>
         </div>
@@ -73,7 +73,7 @@ export default function Experience() {
             Services i.e., Design/Development/SEO/SMM.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -99,7 +99,7 @@ export default function About() {
               perfect for your needs. Reach me at (+91) 80760 75287 or fill the
               form below !"
             </p>
-            <a href="#" className="btn-cv">
+            <a href="https://docs.google.com/uc?id=1C5-s9RJB5X1YSL72sfCPfWQ66F6uVHMS" target="_blank" className="btn-cv">
               DOWNLOAD MY CV
             </a>
           </div>
