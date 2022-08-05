@@ -12,8 +12,10 @@ import Journal from "./components/Journal";
 import Counter from "./components/Counter";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { useEffect } from "react";
 
 function App() {
+  
   return (
     <div className="App">
       <AnimatedCursor

@@ -5,7 +5,7 @@ export default function About() {
   const skills = [
     {
       type: "HTML5",
-      level: 100,
+      level: 90,
       color: {
         bar: "#1E5128",
         title: { text: "#fff", background: "#1E5128" },
@@ -13,7 +13,7 @@ export default function About() {
     },
     {
       type: "CSS3",
-      level: 95,
+      level: 90,
       color: {
         bar: "#4E9F3D",
         title: { text: "#fff", background: "#4E9F3D" },
@@ -21,7 +21,7 @@ export default function About() {
     },
     {
       type: "BOOTSTRAP",
-      level: 92,
+      level: 82,
       color: {
         bar: "#8B9A46",
         title: { text: "#fff", background: "#8B9A46" },
@@ -36,7 +36,7 @@ export default function About() {
       },
     },
     {
-      type: "WORDPRESS",
+      type: "WEB3.JS",
       level: 78,
       color: {
         bar: "#DBEDF3",
@@ -44,7 +44,7 @@ export default function About() {
       },
     },
     {
-      type: "WEB3.JS",
+      type: "WORDPRESS",
       level: 70,
       color: {
         bar: "#8787A3",

@@ -2,6 +2,11 @@ import React from "react";
 import {FaChevronDown} from 'react-icons/fa'
 
 export default function Hero() {
+  
+  setTimeout(() => {
+    window.alert("Website Redesign Under Process, User may experience some issues while browsing")
+  }, 2000);
+  
   return (
     <div className="container hero-main">
       <div className="row">
