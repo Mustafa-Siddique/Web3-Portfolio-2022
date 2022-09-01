@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: mustafasiddique.com
-Token: e53d51ff2c18b87fedbbc031c52e6602e9c7c93eea47151a633ffce563ef9904
+Token: c2a3badfcf9ad03212858645d50d91433f36e9ddc6ab001d12fdcb3c5abadaf2
